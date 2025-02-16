@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AdvancedRec</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_completed">Задача выполнена</string>
+    <string name="save">Сохранить</string>
+    <string name="hint_et_detail_description">Описание...</string>
+    <string name="hint_et_detail_case">Задача ...</string>
+    <string name="label_detail_case">Введите описание задачи</string>
+    <string name="label_name_case">Введите имя задачи</string>
+    <string name="empty_case">Список дел пуст</string>
+    <string name="add_data_case">Введите данные задачи</string>
+</resources>
