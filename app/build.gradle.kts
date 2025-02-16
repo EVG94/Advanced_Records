@@ -17,14 +17,14 @@ android {
         minSdk = 24
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -70,12 +70,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    // lifecycle
-
-
-   // implementation(libs.androidx.lifecycle.livedata.ktx)
-  //  implementation(libs.androidx.lifecycle.runtime.ktx)
-   // implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.fragment.ktx)
     // Coroutines
     implementation(libs.kotlinx.coroutines.core)

@@ -8,4 +8,6 @@
     <string name="label_name_case">Введите имя задачи</string>
     <string name="empty_case">Список дел пуст</string>
     <string name="add_data_case">Введите данные задачи</string>
+    <string name="test_text">Custom Toast</string>
+    <string name="label_to_do_list">Список моих дел</string>
 </resources>

@@ -20,6 +20,7 @@ interface DaoCaseRecords {
 
     @Update
     fun updateNewCase(newCase: CaseRecords)
+
     @Query("select * from CaseRecords where name like :oldSearch")
     fun getListCaseRecordsWithOldSearch(oldSearch: String): List<CaseRecords>
 
